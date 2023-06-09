@@ -1,0 +1,22 @@
+<%- include('partials/header') -%>
+
+<div class="editor_container">
+    <form action="/write" method="post">
+        <label class="heading" for= "title">Highlight of the Day</label>
+        <br>
+        <br>
+        <input class="heading_input" type="text" id="title" value="Highlight" name="highlight">
+        <br>
+        <br>
+        <label class="heading" for= "content">Reflect</label>
+        <br>
+        <br>
+        <textarea class="editor_content" name="textArea">Lorem ipsum, dolor
+        </textarea>
+        <br>
+        <br>
+        <button class="button" name="button" type="submit">Publish</button>
+    </form>
+</div>
+
+<%- include('partials/footer') -%>
