@@ -25,10 +25,21 @@ body{
     backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
     -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
 }
+.spaceContainer{
+    height: 15vh;
+}
+h1{
+    margin-left: 3rem;
+    text-decoration: none ;
+    font-family: sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #4d4d4e;
+}
 
 .logoText{
     font-size: xx-large;
-    font-weight:700;
+    font-weight:700;    
     color: #4d4d4e;
 }
 
@@ -58,11 +69,13 @@ body{
 
 .container{
     align-content: center;
-    padding: 2rem 2rem 2rem 2rem;
-    background-color: rgb(245, 230, 213);
-    width: 70%;
-    margin: 12rem 2rem 2rem 3rem;
-    min-height: 5vh;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: rgb(242, 234, 211);
+    /* Blue - 200, 225, 237 */
+    /* Cream - 245, 230, 213 */
+    min-width: 70%;
+    margin: 3rem 2rem 2rem 3rem;
+    min-height: 20vh;
     max-height: 30vh;
     border-radius: 10px;
 }
@@ -153,4 +166,10 @@ body{
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
+}
+a{
+    color: rgb(64, 116, 238);
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
 }

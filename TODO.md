@@ -7,9 +7,7 @@
 
 # h2 Write Page
     - simple form, typing should be smooth af, can make sound, cursor should be different
-    - 
 
 # h2 Other
-    - Logo on navbar
     - Title about the container, will continously change every 5 seconds 
     

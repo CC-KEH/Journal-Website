@@ -1,12 +1,18 @@
 <%- include('partials/header'); -%>
-
-<div class="container">
-    <div class="heading">
-        Lorem ipsum, dolor sit amet consectetur adipisicing
-    </div>
-    <div class="content">
-        <p> <%= starter %> </p>
-    </div>
+<div class="spaceContainer">
+    
 </div>
 
+<h1>Home</h1>
+<% posts.forEach(element => { %>
+    <div class="container">
+        <div class="heading">   
+            <%= element.title %>
+        </div>
+        <div class="content">
+            <p> <%= element.content %> </p>
+            <a href="/posts/<%= element.title %>">Read More</a>
+        </div>
+    </div> 
+<% });   %> 
 <%- include('partials/footer'); -%>    
